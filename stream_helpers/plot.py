@@ -24,8 +24,9 @@ class StreamRidgeBuilder:
         if event.inaxes != self.ax:
             return
 
-        self.xs.append(event.xdata)
-        self.ys.append(event.ydata)
+        if isinstance(event, mpl.backend_bases.MouseEvent):
+            self.xs.append(event.xdata)
+            self.ys.append(event.ydata)
 
         if self.line is None:
             self.line, = self.ax.plot(self.xs, self.ys, color='tab:red')
