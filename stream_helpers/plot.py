@@ -10,6 +10,7 @@ class StreamRidgeBuilder:
         self.reset()
         fig = self.ax.figure
 
+        self.proj = proj
         self.cids = {}
         self.cids['mouse'] = fig.canvas.mpl_connect('button_press_event', self)
         self.cids['key'] = fig.canvas.mpl_connect('key_press_event', self)
