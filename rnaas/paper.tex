@@ -1,0 +1,81 @@
+% NOTES:
+% - 1000 words or less for RNAAS!
+% - Add an appendix or some words for arxiv posting
+
+% TODO:
+% -
+
+\documentclass[RNAAS]{aastex63}
+
+% Load common packages
+\usepackage{microtype}  % ALWAYS!
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{color}
+
+\usepackage{enumitem}
+\setlist[description]{style=unboxed}
+
+\sloppy\sloppypar\raggedbottom\frenchspacing
+
+\input{preamble.tex}
+
+\shorttitle{Stellar streams in the Legacy Surveys}
+\shortauthors{Shipp \& Price-Whelan}
+
+\begin{document}
+
+\title{Something catchy...}
+
+\author[0000-0003-2497-091X]{Nora~Shipp}
+\affiliation{affiliation...}
+
+\author[0000-0003-0872-7098]{Adrian~M.~Price-Whelan}
+\affiliation{Center for Computational Astrophysics, Flatiron Institute,
+             Simons Foundation, 162 Fifth Avenue, New York, NY 10010, USA}
+
+
+\section{} \label{sec:intro}
+
+Words...
+
+% \begin{figure}[!t]
+%     \begin{center}
+%     \includegraphics[width=0.8\textwidth]{example-binaries-long.pdf}
+%     \end{center}
+%     \caption{%
+%     The same as \figurename~\ref{fig:binary-examples-short}, but for \apogee\
+%     sources with long visit baselines ($\tau > 1000~\dayd$)
+%     \label{fig:binary-examples-long}
+%     }
+% \end{figure}
+
+
+\acknowledgements
+
+It is a pleasure to thank...
+
+Link to Legacy Surveys acknowledgement: http://legacysurvey.org/acknowledgment/
+
+
+\software{
+    Astropy \citep{astropy:2018},
+    gala \citep{gala},
+    IPython \citep{ipython},
+    numpy \citep{numpy},
+    schwimmbad \citep{schwimmbad:2017},
+    scipy \citep{scipy},
+}
+
+
+\appendix
+
+TODO.
+
+% \bibliographystyle{aasjournal}
+% \bibliography{refs}
+
+\end{document}

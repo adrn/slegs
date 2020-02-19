@@ -1,0 +1,13 @@
+# Latex crap
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.pdf
+*.synctex.gz*
+*Notes.bib
+*.png
+*.fdb_latexmk
+*.fls
