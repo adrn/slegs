@@ -23,7 +23,7 @@ def get_data(bass_file=None, decals_file=None, bass_scale_factor=1.5):
     if decals_cube is None:
         decals_cube = np.zeros_like(bass_cube)
     elif bass_cube is None:
-        bass_cube = np.zeros_lile(decals_cube)
+        bass_cube = np.zeros_like(decals_cube)
 
     tmp_bass = bass_cube.copy()
     tmp_bass[decals_cube != 0] = 0.
