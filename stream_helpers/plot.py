@@ -1,4 +1,5 @@
 import astropy.units as u
+import matplotlib as mpl
 
 __all__ = ['StreamRidgeBuilder']
 
