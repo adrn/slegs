@@ -3,3 +3,4 @@ plots
 *.png
 *.gif
 *.pkl
+*.npy
